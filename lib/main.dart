@@ -4,7 +4,8 @@ void main() {
   runApp(
     MaterialApp(
       home: Center(
-        child: Text("Merry Christmas you filthy animal"),
+        child: Text(
+            "How does Secret Machine work? You anonymously post a secret, and like magic, that weight has been taken off your shoulders and onto our highly secure database"),
       ),
     ),
   );
