@@ -3,10 +3,15 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Center(
-        child: Text(
-            "How does Secret Machine work? You anonymously post a secret, and like magic, that weight has been taken off your shoulders and onto our highly secure database"),
-      ),
+      home: Scaffold(
+          backgroundColor: Colors.grey[300],
+          appBar: AppBar(
+            title: Text("Secret Machine"),
+            backgroundColor: Colors.red[900],
+          ),
+          body: Image(
+              image: NetworkImage(
+                  'https://wallpaperaccess.com/full/3677696.png'))),
     ),
   );
 }
